@@ -9,6 +9,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 
+//  追記テスト
 public class MainActivity extends AppCompatActivity implements DialogManager.Callback {
 
     private CheckBox chkCancelable;      //  ダイアログのキャンセル可/不可を設定する為のチェックボックス
