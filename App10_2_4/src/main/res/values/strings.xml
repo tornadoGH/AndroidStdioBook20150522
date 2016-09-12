@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App10_2_4</string>
+    <string name="action_settings">Settings</string>
+    <string name="amin_btnDialog">ダイアログ表示</string>
+    <string name="amin_txvSendDialogText">送信テキスト</string>
+    <string name="amin_txvReceiveDialogText">受信テキスト</string>
+    <string name="amin_chkCancelable">キャンセル可</string>
+    <string name="dsam_title">ダイアログタイトル</string>
+    <string name="dsam_positive">OK</string>
+    <string name="dsam_negative">キャンセル</string>
+    <string name="dsam_txvRecieveActivityText">受信テキスト</string>
+    <string name="dsam_txtSendActivityText">送信テキスト</string>
+</resources>
