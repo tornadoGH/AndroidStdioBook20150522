@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App11_2_1</string>
+    <string name="action_settings">Settings</string>
+    <string name="amin_btnLoader">非同期処理開始</string>
+    <string name="dprg_title">処理実行中</string>
+    <string name="dprg_message">現在作業を行っています</string>
+    <string name="dprg_negative">中断</string>
+</resources>
