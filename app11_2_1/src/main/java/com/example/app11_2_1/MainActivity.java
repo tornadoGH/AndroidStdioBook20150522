@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements Load.LoaderCallba
                     task.progress = 0;
             }
 
-            Loader loader = getSupportLoaderManager().getLo ader( TASK_ID );
+            Loader loader = getSupportLoaderManager().getLoader( TASK_ID );
             if( loader != null && loader.isStarted() )
             {
                 Logger.log("destroyLoader()");
