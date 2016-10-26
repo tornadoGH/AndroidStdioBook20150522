@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App5_4_4</string>
+    <string name="menu_title">タイトル</string>
+    <string name="menu_sub_title">サブタイトル</string>
+    <string name="action_call">Call</string>
+    <string name="action_search">Search</string>
+    <string name="action_save">Save</string>
+</resources>
