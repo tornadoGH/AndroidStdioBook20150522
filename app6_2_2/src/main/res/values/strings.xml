@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App6_2_2</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="fruits">
+        <item>りんご</item>
+        <item>みかん</item>
+        <item>いちご</item>
+    </string-array>
+
+    <string-array name="flowers">
+        <item>ひまわり</item>
+        <item>たんぽぽ</item>
+        <item>チューリップ</item>
+    </string-array>
+</resources>
