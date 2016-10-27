@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App6_2_3</string>
+    <string name="action_settings">Settings</string>
+    <string name="amin_chkRadioEnabled">RadioBtton Enabled</string>
+    <string name="amin_rbtCheckEnabled">CheckBox Enabled</string>
+    <string name="amin_rbtCheckDisabled">CheckBox Disabled</string>
+</resources>
