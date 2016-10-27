@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App6_3_3</string>
+    <string name="action_settings">Settings</string>
+    <string name="amin_txvOutput">デフォルト表示</string>
+    <string name="amin_txvAfter">変更後の表示</string>
+    <string name="amin_btnChange">表示変更</string>
+</resources>
