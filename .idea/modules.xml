@@ -16,6 +16,9 @@
       <module fileurl="file://$PROJECT_DIR$/app7_1_1/app7_1_1.iml" filepath="$PROJECT_DIR$/app7_1_1/app7_1_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app7_1_2/app7_1_2.iml" filepath="$PROJECT_DIR$/app7_1_2/app7_1_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app7_2_2/app7_2_2.iml" filepath="$PROJECT_DIR$/app7_2_2/app7_2_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app7_3_2/app7_3_2.iml" filepath="$PROJECT_DIR$/app7_3_2/app7_3_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app7_3_2sub1/app7_3_2sub1.iml" filepath="$PROJECT_DIR$/app7_3_2sub1/app7_3_2sub1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app7_3_2sub2/app7_3_2sub2.iml" filepath="$PROJECT_DIR$/app7_3_2sub2/app7_3_2sub2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app8_3_1/app8_3_1.iml" filepath="$PROJECT_DIR$/app8_3_1/app8_3_1.iml" />
     </modules>
   </component>

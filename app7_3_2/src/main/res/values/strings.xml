@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App7_3_2</string>
+    <string name="action_setting">Settings</string>
+    <string name="amin_btnBrowser">ブラウザ</string>
+    <string name="amin_btnDialer">電話発信</string>
+    <string name="amin_btnCallAll">両方のアクティビティを呼ぶ</string>
+    <string name="amin_btnCallActivity1">アクティビティ１を呼ぶ</string>
+    <string name="amin_btnCallActivity2">アクティビティ２を呼ぶ</string>
+</resources>

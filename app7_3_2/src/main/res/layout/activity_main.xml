@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.app7_3_2.MainActivity">
+
+    <Button
+        android:id="@+id/amin_btnBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amin_btnBrowser" />
+
+    <Button
+        android:id="@+id/amin_btnDialer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amin_btnDialer" />
+
+    <Button
+        android:id="@+id/amin_btnCallAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amin_btnCallAll" />
+
+    <Button
+        android:id="@+id/amin_btnCallActivity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amin_btnCallActivity1" />
+
+    <Button
+        android:id="@+id/amin_btnCallActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amin_btnCallActivity2" />
+
+</LinearLayout>
