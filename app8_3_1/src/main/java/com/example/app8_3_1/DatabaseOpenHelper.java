@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DatabaseOpenHelper extends SQLiteOpenHelper {
 
     //  データベース名
-    private static final String DB_NAME = "app831.d";
+    private static final String DB_NAME = "app831.db";
     //  データベースのバージョン
     private static final int DB_VERSION = 1;
 
@@ -19,7 +19,12 @@ public class DatabaseOpenHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate( SQLiteDatabase db )
     {
-        db.execSQL( DaoItem.create() );
+        //  テーブル作成
+        String sql = String.format("CREATE TABLE user( %s,%s,%s );",
+                "_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL",
+                "name TEXT NOT NULL",
+                "password TEXT NOT NULL");
+        db.execSQL( sql );
     }
 
     @Override
