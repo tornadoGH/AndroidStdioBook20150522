@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/app7_3_2sub2" />
             <option value="$PROJECT_DIR$/app8_3_1" />
             <option value="$PROJECT_DIR$/app8_3_2" />
+            <option value="$PROJECT_DIR$/app8_4_1" />
           </set>
         </option>
         <option name="myModules">
@@ -49,6 +50,7 @@
             <option value="$PROJECT_DIR$/app7_3_2sub2" />
             <option value="$PROJECT_DIR$/app8_3_1" />
             <option value="$PROJECT_DIR$/app8_3_2" />
+            <option value="$PROJECT_DIR$/app8_4_1" />
           </set>
         </option>
       </GradleProjectSettings>
