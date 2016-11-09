@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App9_2_1</string>
+    <string name="action_setting">Settings</string>
+    <string name="amin_rbtAnyName">任意名</string>
+    <string name="amin_rbtActivityName">アクティビティ名</string>
+    <string name="amin_rbtDefaultName">デフォルト名</string>
+    <string name="amin_btnSave">書き込み</string>
+    <string name="amin_btnLoad">読み出し</string>
+    <string name="amin_btnDelete">削除</string>
+</resources>

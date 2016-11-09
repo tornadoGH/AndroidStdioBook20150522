@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.app9_2_1.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/amin_rdgName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/amin_rdbAnyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/amin_rbtAnyName" />
+
+        <RadioButton
+            android:id="@+id/amin_rdbActivityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/amin_rbtActivityName" />
+
+        <RadioButton
+            android:id="@+id/amin_rdbDefaultName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/amin_rbtDefaultName" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/amin_etxValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/amin_btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/amin_btnSave" />
+
+        <Button
+            android:id="@+id/amin_btnLoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/amin_btnLoad" />
+
+        <Button
+            android:id="@+id/amin_btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/amin_btnDelete" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/amin_txvValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
