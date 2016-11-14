@@ -39,11 +39,11 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             }
 
             Loader loader = getSupportLoaderManager().getLoader( TASK_ID );
-/*          if( loader != null )
+            if( loader != null )
             {
                 Logger.log("destroyLoader()");
                 getSupportLoaderManager().destroyLoader(TASK_ID);
-            }*/
+            }
         });
     }
 
