@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App10_1_2</string>
+    <string name="action_settinggs">Settings</string>
+    <string name="amin_btnActivity">アクティビティのボタン</string>
+    <string name="fsub_btnFragment">フラグメントのボタン</string>
+    <string name="zero">0</string>
+</resources>
