@@ -34,13 +34,13 @@ public class DialogParams {
 
     public DialogParams positive( int positive )
     {
-        bundle.putInt( DialogProgressManager.PARAM_POVITIVE, positive );
+        bundle.putInt( DialogProgressManager.PARAM_POSITIVE, positive );
         return this;
     }
 
     public DialogParams neutral( int neutral )
     {
-        bundle.putInt( DialogProgressManager.PARAM_NEUTRL, neutral );
+        bundle.putInt( DialogProgressManager.PARAM_NEUTRAL, neutral );
         return this;
     }
 

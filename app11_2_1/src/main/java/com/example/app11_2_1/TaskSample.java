@@ -1,8 +1,6 @@
 package com.example.app11_2_1;
 
-import android.app.Activity;
 import android.support.v4.content.AsyncTaskLoader;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -31,7 +29,7 @@ public class TaskSample extends AsyncTaskLoader<String> {
     }
 
     @Override
-    public String loadBackground()
+    public String loadInBackground()
     {
         Log.d("DEBUG", String.format("loadBackground() 非同期処理開始 %s", getThread() ));
 
@@ -47,7 +45,7 @@ public class TaskSample extends AsyncTaskLoader<String> {
 
             if( isTaskCancel || activity.isDialogCancel )
             {
-                Log.d("DEBUG", "loadBackground()　非同期処理キャンセル " + isTaskCancel + ActivityMain.isDialogCancel() );
+                Log.d("DEBUG", "loadBackground()　非同期処理キャンセル " + isTaskCancel + "/" + MainActivity.isDialogCancel );
                 isTaskCancel = false;
                 MainActivity.isDialogCancel = false;
 

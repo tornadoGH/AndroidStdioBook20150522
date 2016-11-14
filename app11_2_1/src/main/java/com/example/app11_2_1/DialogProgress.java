@@ -1,15 +1,13 @@
 package com.example.app11_2_1;
 
-import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.view.Display;
 
 /**
- * Created by kooka on 2016/09/12.
+ * Created on 2016/09/12.
  */
 public class DialogProgress extends DialogProgressManager {
 

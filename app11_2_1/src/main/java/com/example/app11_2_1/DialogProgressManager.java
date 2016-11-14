@@ -1,15 +1,15 @@
 package com.example.app11_2_1;
 
 import android.app.Activity;
-import android.app.DialogFragment;
-import android.app.Fragment;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.Fragment;
 
 /**
- * Created by kooka on 2016/09/12.
+ * Created on 2016/09/12.
  */
 public class DialogProgressManager extends DialogFragment {
 
@@ -47,7 +47,7 @@ public class DialogProgressManager extends DialogFragment {
         getDialog().setCancelable( getArguments().getBoolean( PARAM_CANCELABLE ));
     }
 
-    public static ProgressDialog makeDialog( final Fragment fragment, final DialogInterface.OnClickListener listener )
+    public static ProgressDialog makeDialog(final Fragment fragment, final DialogInterface.OnClickListener listener )
     {
         Bundle args = fragment.getArguments();
         Context context = fragment.getActivity();
