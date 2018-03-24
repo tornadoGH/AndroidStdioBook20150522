@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidStdioBook20150522.iml" filepath="$PROJECT_DIR$/AndroidStdioBook20150522.iml" />
+      <module fileurl="file://C:\Project\work\AndroidStdioBook20150522.iml" filepath="C:\Project\work\AndroidStdioBook20150522.iml" />
       <module fileurl="file://$PROJECT_DIR$/App10_2_4/App10_2_4.iml" filepath="$PROJECT_DIR$/App10_2_4/App10_2_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app10_1_2/app10_1_2.iml" filepath="$PROJECT_DIR$/app10_1_2/app10_1_2.iml" />
@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/app8_4_1/app8_4_1.iml" filepath="$PROJECT_DIR$/app8_4_1/app8_4_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app8_4_2/app8_4_2.iml" filepath="$PROJECT_DIR$/app8_4_2/app8_4_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app9_2_1/app9_2_1.iml" filepath="$PROJECT_DIR$/app9_2_1/app9_2_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work.iml" filepath="$PROJECT_DIR$/work.iml" />
     </modules>
   </component>
 </project>
